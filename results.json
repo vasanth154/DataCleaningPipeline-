@@ -1,0 +1,25 @@
+{
+    "project_name": "Data Cleaning Pipeline",
+    "original_rows": 1000,
+    "raw_rows": 1040,
+    "cleaned_rows": 1000,
+    "columns": [
+        "customer_id",
+        "age",
+        "income",
+        "city",
+        "signup_date",
+        "monthly_spend"
+    ],
+    "duplicates_removed": 40,
+    "remaining_duplicates": 0,
+    "unique_cities": 5,
+    "missing_values": {
+        "customer_id": 0,
+        "age": 0,
+        "income": 0,
+        "city": 0,
+        "signup_date": 33,
+        "monthly_spend": 0
+    }
+}
